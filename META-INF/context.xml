@@ -1,0 +1,8 @@
+<Context>
+    <Resource name="jdbc/postgreSqlDataSource" auth="Container" type="javax.sql.DataSource"
+              maxActive="100" maxIdle="30" maxWait="10000"
+              username="YOURUSERNAMEHERE" password="YOURPASSWORDHERE" driverClassName="org.postgresql.Driver"
+              url="jdbc:postgresql://YOURHOSTHERE/YOURDATABASEHERE"
+              removeAbandoned="true" removeAbandonedTimeout="60" logAbandoned="true"
+              testOnBorrow="true" validationQuery="SELECT 1" />
+</Context>
