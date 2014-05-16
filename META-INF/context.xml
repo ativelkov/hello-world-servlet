@@ -4,5 +4,6 @@
               username="YOURUSERNAMEHERE" password="YOURPASSWORDHERE" driverClassName="org.postgresql.Driver"
               url="jdbc:postgresql://YOURHOSTHERE/YOURDATABASEHERE"
               removeAbandoned="true" removeAbandonedTimeout="60" logAbandoned="true"
+              factory="org.apache.commons.dbcp.BasicDataSourceFactory"
               testOnBorrow="true" validationQuery="SELECT 1" />
 </Context>
