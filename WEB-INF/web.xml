@@ -5,7 +5,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>HelloServletName</servlet-name>
-        <url-pattern>/HelloWorld</url-pattern>
+        <url-pattern>/</url-pattern>
     </servlet-mapping>
     <resource-ref>
         <description>Database Connection</description>
